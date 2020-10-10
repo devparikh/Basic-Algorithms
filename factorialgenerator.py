@@ -1,4 +1,4 @@
-def getfactorial(x):
+def getfactorial():
     factorial_input = int(input("What factorial do you want to calculate?:"))
     factorial = 1 
      # Calculating the factorial
@@ -15,5 +15,5 @@ def getfactorial(x):
         factorial_input()
         
         
-getfactorial('x')
+getfactorial()
   
