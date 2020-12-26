@@ -15,7 +15,9 @@ while new_number < 100:
     new_number += number
 
     if new_number % num_input == 0:
+        # This adds multiples to the multiples list
         multiples.append(new_number)
     else:
         continue
+# This finds the sum of the multiples list
 print(sum(multiples))
