@@ -17,7 +17,9 @@ while new_number > 10000:
     perfect_square = new_number ** 0.5
 
     if perfect_square == int:
+        # This part adds all of the perfect squares to a list
         perfect_squares.append(perfect_square)
     else:
         continue
+# This finds the sum of the perfect square list
 print(sum(perfect_squares))
