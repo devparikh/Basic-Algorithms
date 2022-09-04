@@ -1,3 +1,4 @@
+# Basic Algorithms
 This repository contains basic algorithms I implemented to solve certain problems like:
 - Generating the Fibonacci Sequence until a number n(Iteratively)
 - Generating the Fibonacci Sequence until a number n(Recursively)
