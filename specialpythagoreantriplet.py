@@ -28,30 +28,5 @@ while found == False:
             # Ensuring that a is smaller than b and b is smaller than c and that condition which is the sum of the 3 variables is 1000
             if a < b < c and condition == 1000:
                 # Printing the triplet if found
-                print("The special pythagorean triplet with A: {}, B: {} and C: {} whose sum is 1000 is {}".format(a, b, c, product))
+                print("The special pythagorean triplet with A: {}, B: {} and C: {} whose sum is 1000 is {}".format(a, b, c, product)) # --> The product of the 3 variables is 31875000
                 found = True
-
-
-
-"""
-for number in range(1, len(specialpythagoreantriplet)):
-    random.shuffle(specialpythagoreantriplet)
-    c = random.choice(specialpythagoreantriplet)
-    b = random.choice(specialpythagoreantriplet)
-    a = random.choice(specialpythagoreantriplet)
-
-    abc_combo.append(a)
-    abc_combo.append(b)
-    abc_combo.append(c)
-
-    all_combo.append(abc_combo)
-
-    squared_a = a * a
-    squared_b = b * b
-    squared_c = c * c 
-
-    nums_sum = a + b + c
-
-    if a < b < c and squared_a + squared_b == squared_c and nums_sum == 1000:
-        print("The special pythagorean triplet whose sum is 1000 is {}".format(nums_sum))
-"""
