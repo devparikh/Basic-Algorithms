@@ -15,7 +15,7 @@ def romantointegers(roman_numeral_characters, roman_numeral):
 
         else:
             # Checking if the input value is actually has characters from the roman_numeral_character dictionary
-            print("Input roman numeral not in range of 1 and 3999")
+            print("Input roman numeral not in range of 1 and 1000")
             sys.exit()
 
     # The general rule is that if the largest value of a roman numeral is the last character then all of the previous characters values have to be subtracted from the largest one to get the integer value
