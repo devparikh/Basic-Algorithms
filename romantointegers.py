@@ -1,5 +1,5 @@
 import sys
-# Creating a dictionary of key-value pairs with the keys being the reference source in the function
+# Creating a dictionary of key-value pairs to be used as a reference source in the function
 roman_numeral_characters = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
 
 # Input roman numeral
@@ -28,7 +28,3 @@ def romantointegers(roman_numeral_characters, roman_numeral):
         print("The integer value of {} in integers is {}".format(roman_numeral, sum(character_values)))
 
 romantointegers(roman_numeral_characters, roman_number_input)
-
-
-
-
