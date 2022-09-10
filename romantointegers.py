@@ -3,7 +3,7 @@ import sys
 roman_numeral_characters = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
 
 # Input roman numeral
-roman_number_input = "F"
+roman_number_input = "XXVII"
 
 def romantointegers(roman_numeral_characters, roman_numeral):
     character_values = []
