@@ -1,6 +1,6 @@
 # Initializing 2 random strings to be inputs of the function below
 string_1 = "ABCABC"
-string_2 = ""
+string_2 = "ABC"
 
 # This function finds the greatest common divisors of 2 strings
 def StringsGreatestCommonDivisors(string_input_1, string_input_2):
