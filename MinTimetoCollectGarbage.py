@@ -1,7 +1,5 @@
-# Key Information:
-# - There are 2 lists garbage list which contains the different types of garbage at house h and travel which contains the number of minutes to go from one house to the next
-# - There are only 3 garbage trucks for each type of garbage in the city and when one is picking up garbage the other 2 have to be idle
-# - The garbage trucks have to start at house 1 and go to each house in ascending order
+# Problem 2691: Minimum Amount of Time to Collect Garbage
+# https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
 
 metal_garbage_truck = []
 paper_garbage_truck = []
