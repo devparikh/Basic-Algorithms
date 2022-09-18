@@ -23,3 +23,4 @@ def sort_merged_lists(combo_list):
 sort_merged_lists(combo_list)
 
 print("The sorted merged list of {} and {} is {}".format(sorted_list_1, sorted_list_2, combo_list))
+# Resulting Output: [10, 10, 12, 12, 15, 15, 17, 17, 19, 21, 30]
