@@ -10,3 +10,5 @@ This repository contains basic algorithms I implemented to solve certain problem
 - Square Sum Difference - Finding the difference between the sum of squares of the first 100 natural numbers and it's square of the sum
 - Finding the 10001th Prime Number using Sieve of Erotosthenes
 - Converting Roman Numerals under 3999 to Integers 
+- Finding the greatest common string for 2 input strings
+- Merging & Sorting(Bubble Sort) 2 Sorted lists
