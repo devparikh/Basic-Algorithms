@@ -18,7 +18,7 @@ def calculate_day_of_the_year(input_date):
     # Iterating over every month in total_months for every month in the months variable
     for month in total_months[:months]:
         if month != non_leap:
-            days_count += int(month)
+            days_count += month
         # Checking if the year is a leap year or not, if it is then add one day to february
         elif month == non_leap and year % 4 == 0:
             days_count += month + 1
