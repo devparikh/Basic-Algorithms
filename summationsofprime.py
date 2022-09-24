@@ -27,23 +27,3 @@ def SieveofEratosthenes(upperbound, prime_summation_list):
 SieveofEratosthenes(n, prime_sum_list)
 
 print("The sum of all prime numbers under 2 million is {}".format(sum(prime_sum_list))) # Finding the sum of all of the primes under 2 million
-
-
-
-
-
-
-
-
-
-"""
-numbers_set = list(range(2, 2000001))
-print(len(numbers_set))
-
-prime_set = []
-
-for number in numbers_set:
-    if number % 2 != 0 and number % 3 != 0 and number % 5 != 0 and number % 7 != 0 and number % 11 != 0 and number % 13 != 0 and number % 17 != 0 and number % 18:
-        prime_set.append(number)
-
-print("The sum of all prime numbers under 2 million is {}".format(sum(prime_set)))"""
