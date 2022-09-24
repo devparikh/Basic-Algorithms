@@ -12,3 +12,5 @@ This repository contains basic algorithms I implemented to solve certain problem
 - Converting Roman Numerals under 3999 to Integers 
 - Finding the greatest common string for 2 input strings
 - Merging & Sorting(Bubble Sort) 2 Sorted lists
+- Remove Digit From Number to Maximize Result
+- Finding 3-Digit Even Numbers from 100-999 where each digit is part of the input array and the integer does not have leading zeros
