@@ -1,3 +1,6 @@
+# Problem 599: Minimum Index Sum of Two Lists
+# https://leetcode.com/problems/minimum-index-sum-of-two-lists/
+
 list_1 = ["Shogun","Tapioca Express","Burger King","KFC"]
 list_2 = ["Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"]
 
