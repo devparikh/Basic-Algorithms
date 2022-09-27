@@ -20,7 +20,7 @@ find_minimum_index_sum_lists(list_1, list_2, common_string_index)
 for value in common_string_index.values():
     # if the value is the lowest of all of the values in the dictionary, then do the following.
     if value == min(common_string_index.values()):
-        # iterating over every key where the item(value of a given key-value pair) == to value(variable created above)
+        # iterating over every key where the item(value of a given key-value pair) == value(variable created above)
         keys = [key for key, item in common_string_index.items() if item == value]
         common_string = keys
 
