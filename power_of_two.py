@@ -1,8 +1,8 @@
 # LeetCode Problem 231: Power of Two
 # https://leetcode.com/problems/power-of-two/
 
-
 input_number = 512
+# Tested low Powers of 2 like 4, 16, 32, 64 + other random numbers and most importantly 1 for which it should return 2^0(that will be checked for manually)
 
 # Iterative Strategy
 def power_of_two_iterative(number):
@@ -24,6 +24,3 @@ def power_of_two_iterative(number):
         print("The input number {} is not a power of 2".format(number))
 
 power_of_two_iterative(input_number)
-
-
-    
