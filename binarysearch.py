@@ -2,7 +2,7 @@
 # Time Complexity - O(log n)
 input_list = [1, 3, 7, 1024, 902, 13, 134]
 
-target_value = 120
+target_value = 134
 
 sorted_list = sorted(input_list)
 original_list = sorted_list
