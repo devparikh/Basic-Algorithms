@@ -16,8 +16,7 @@ def binary_search(sorted_test_list, target_value, original_list):
                 item = original_list.index(target_value) + 1 
                 value_found = True
                 print("The index of the element {} is {}.".format(target_value, item))
-                break
-
+                
             if target_value < sorted_test_list[middle_element]:
                 sorted_test_list = sorted_test_list[0:middle_element]
                 
