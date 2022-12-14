@@ -14,3 +14,4 @@ This repository contains basic algorithms I implemented to solve certain problem
 - Merging & Sorting(Bubble Sort) 2 Sorted lists
 - Remove Digit From Number to Maximize Result
 - Finding 3-Digit Even Numbers between 100-999 where each digit is part of the input array and the integer does not have leading zeros
+- Binary Search(Iterative Implementation)
