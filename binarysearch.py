@@ -8,7 +8,6 @@ sorted_list = sorted(input_list)
 original_list = sorted_list
 
 def binary_search(sorted_test_list, target_value, original_list):
-    middle_element = int((len(sorted_test_list) - 1)/2)
     value_found = False
     while value_found == False:
         if len(sorted_test_list) != 0:
