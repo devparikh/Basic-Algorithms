@@ -1,4 +1,5 @@
 # Iterative Implementation of Binary Search
+# Time Complexity - O(log n)
 input_list = [1, 3, 7, 1024, 902, 13, 134]
 
 target_value = 120
